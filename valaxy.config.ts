@@ -10,8 +10,14 @@ const config: UserConfig<ThemeUserConfig> = {
   title: 'Jackie的喵窝~',
   author: {
     name: 'Jackie',
+    avatar: 'https://public.sunyz.net/persons/JackieCat.jpg/webp',
+    email: 'j169880742@outlook.com',
+    status: {
+      emoji: '🏳️‍⚧️',
+      message: '想要变成可爱的女孩子~',
+    },
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: '想要变成可爱的女孩子~',
   social: [
     {
       name: 'RSS',
@@ -52,12 +58,31 @@ const config: UserConfig<ThemeUserConfig> = {
   ],
 
   search: {
+    algolia: {
+      enable: true,
+      appId: '9GNLKV237B',
+      apiKey: '4f920d9b98c9771c696ec51d23ead889',
+      indexName: 'jackiecat-blog',
+      chunkSize: 5000,
+    }
+  },
 
+  comment: {
+    waline: {
+      enable: true,
+      serverURL: 'waline.jackiecat.top',
+    }
   },
 
   theme: 'yun',
 
   themeConfig: {
+    bg_image: {
+      enable: true,
+      url: 'https://public.sunyz.net/persons/JackieCat-Background.png/webp',
+      dark: 'https://public.sunyz.net/persons/JackieCat-Background.png/webp',
+      opacity: 0.8,
+    },
     banner: {
       enable: true,
       title: 'Jackie的喵窝~',
@@ -80,10 +105,7 @@ const config: UserConfig<ThemeUserConfig> = {
 
     footer: {
       since: 2022,
-      beian: {
-        enable: true,
-        icp: '萌ICP备20224032',
-      },
+      powered: true,
     },
   },
 
