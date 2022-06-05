@@ -62,7 +62,7 @@ const config: UserConfig<ThemeUserConfig> = {
       enable: true,
       appId: '9GNLKV237B',
       apiKey: '4f920d9b98c9771c696ec51d23ead889',
-      indexName: 'jackiecat-blog',
+      indexName: 'jackie-blog',
       chunkSize: 5000,
     }
   },
