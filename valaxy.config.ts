@@ -27,7 +27,7 @@ const config: UserConfig<ThemeUserConfig> = {
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/JackiCat0418',
+      link: 'https://github.com/JackieCat0418',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
@@ -80,7 +80,6 @@ const config: UserConfig<ThemeUserConfig> = {
     bg_image: {
       enable: true,
       url: 'https://public.sunyz.net/persons/JackieCat-Background.png/webp',
-      dark: 'https://public.sunyz.net/persons/JackieCat-Background.png/webp',
       opacity: 0.8,
     },
     banner: {

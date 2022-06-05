@@ -7,7 +7,6 @@ tags:
 categories: 教程 hexo
 date: 2022-05-03 14:05:19
 updated: 2022-05-03 14:05:19
-top: 1
 ---
 
 ## 黑幕
@@ -17,8 +16,6 @@ top: 1
 ![image.png](https://s2.loli.net/2022/05/03/Jk4uM7oEnxHQlWP.png)_神秘的黑幕.png_
 
 而且只要把鼠标放上去文字就会显示出来，非常的好用<span class="heimu">（尤其是用来写一些不太正经的话的时候）</span>
-
-<!--more-->
 
 ## 步骤
 

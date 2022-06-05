@@ -1,1 +1,9 @@
 // you can custom css here
+//heimu
+.heimu {
+    background-color: var(--hty-text-color);
+    transition: .2s;}
+
+.heimu:hover{
+    cursor:pointer;
+    background-color:transparent;}
